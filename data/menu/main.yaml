@@ -1,0 +1,10 @@
+---
+main:
+  - name:
+      en: Getting Started
+      de: Erste Schritte
+    sub:
+      - name:
+          en: Installation
+          de: Installation
+        ref: '/getting-started/installation'

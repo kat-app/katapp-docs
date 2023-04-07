@@ -1,0 +1,14 @@
+---
+more:
+  - name:
+      en: Releases
+      de: Releases
+    ref: https://github.com/Team-World-KFRU/KatApp/releases
+    icon: "gdoc_download"
+    external: true
+  - name:
+      en: View Source
+      de: Quellcode
+    ref: https://github.com/Team-World-KFRU/KatApp
+    icon: "gdoc_github"
+    external: true
