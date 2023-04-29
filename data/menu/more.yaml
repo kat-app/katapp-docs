@@ -3,12 +3,12 @@ more:
   - name:
       en: Releases
       de: Releases
-    ref: https://github.com/Team-World-KFRU/KatApp/releases
+    ref: https://github.com/kat-app/KatApp/releases
     icon: "gdoc_download"
     external: true
   - name:
       en: View Source
       de: Quellcode
-    ref: https://github.com/Team-World-KFRU/KatApp
+    ref: https://github.com/kat-app/KatApp
     icon: "gdoc_github"
     external: true

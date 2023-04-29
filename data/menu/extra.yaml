@@ -1,6 +1,6 @@
 ---
 header:
   - name: GitHub
-    ref: https://github.com/Team-World-KFRU/KatApp
+    ref: https://github.com/kat-app/KatApp
     icon: gdoc_github
     external: true
