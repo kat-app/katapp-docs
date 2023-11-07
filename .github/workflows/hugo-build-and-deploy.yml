@@ -1,0 +1,45 @@
+name: Build and Deploy KatApp Docs
+
+on:
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to use for deployment'
+        type: environment
+        required: true
+
+jobs:
+  build_and_deploy:
+    name: Build hugo site and deploy to AWS S3
+    runs-on: ubuntu-latest
+    
+    environment: ${{ inputs.environment }}
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        run: |
+          HUGO_VERSION="0.120.3"
+          wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
+          tar -xf "hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
+          mv hugo /usr/local/bin/
+          rm "hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
+
+      - name: Build Hugo Site
+        run: hugo --gc --minify --baseURL "${{ vars.URL }}"
+
+      - name: Install AWS CLI
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y awscli
+
+      - name: Deploy to AWS S3 and invalidate CloudFront cache
+        run: |
+          aws s3 sync ./ s3://${{ secrets.S3_BUCKET_NAME }}/
+          aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }} --paths "/*"
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
