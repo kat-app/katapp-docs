@@ -8,15 +8,18 @@ defaultContentLanguage = "en"
 languageName = "English"
 contentDir = "content/en"
 weight = 10
+  [languages.en.params]
+    pygmentsCodeFences = true
 
 [languages.de]
 languageName = "German"
 contentDir = "content/de"
 weight = 20
+  [languages.de.params]
+    pygmentsCodeFences = true
 
 # Required to get well formatted code blocks
 pygmentsUseClasses = true
-pygmentsCodeFences = true
 disablePathToLower = true
 enableGitInfo = true
 
