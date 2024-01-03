@@ -1,0 +1,12 @@
+{
+    "version":"2.0.0",
+    "configurations":[
+        {
+          "name":"Debug Hugo Docs",
+          "type":"node-terminal",
+          "request":"launch",
+          "command":"hugo server --buildDrafts",
+          "cwd":"${workspaceFolder}"
+        }
+    ]
+}
