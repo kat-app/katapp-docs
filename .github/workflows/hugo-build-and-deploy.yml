@@ -28,7 +28,7 @@ jobs:
           rm "hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
 
       - name: Build Hugo Site
-        run: hugo --gc --minify --baseURL "${{ vars.URL }}"
+        run: hugo --gc --minify --baseURL "${{ vars.URL }}" --noChmod
 
       - name: Install AWS CLI
         run: |
