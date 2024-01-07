@@ -12,7 +12,7 @@ It does not contain technical documentation. If you're interested in the technic
 
 ## Introduction
 
-This documentation is build with [hugo](https://gohugo.io/), an open-source static website generator.
+This documentation is built with [hugo](https://gohugo.io/), an open-source static website generator.
 
 ## Getting started
 
@@ -42,6 +42,6 @@ $ hugo --gc --minify
 
 The documentation is written using *Markdown*. All the contents of the documentation site are located within the `./content` directory.
 
-The documentation is written in only in English.
+The documentation is written only in English.
 
 We use the open source [Relearn theme](https://github.com/McShelby/hugo-theme-relearn) for Hugo. You can find instructions on how to write and style Hugo pages on the [official Hugo website](https://gohugo.io/getting-started/quick-start/) or on the [official website of the Relearn theme](https://mcshelby.github.io/hugo-theme-relearn/).
