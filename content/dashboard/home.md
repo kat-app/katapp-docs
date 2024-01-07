@@ -19,6 +19,13 @@ about the disaster.
 By clicking 'Select', you can enter the Selected Disaster Overview page for this disaster.
 See the documentation for the Selected Disaster Overview page [here](/selecteddisasteroverview).
 
+If several disasters are very close to each other they are clustered and a cluster icon with the number of clustered
+disasters is shown instead:
+
+![triage-cluster-marker.png](/triage-cluster-marker.png)
+
+You can view the individual disasters by clicking on the cluster icon.
+
 You can also use the available action items in the header. 
 See the documentation for the Header Action Items [here](/headeractionitems).
 
