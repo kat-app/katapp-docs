@@ -1,6 +1,6 @@
 # KatApp Documentation
 
-![example workflow](https://github.com/kat-app/katapp-docs/actions/workflows/hugo-deploy.yaml/badge.svg)
+![example workflow](https://github.com/kat-app/katapp-docs/actions/workflows/hugo-build-and-deploy.yml/badge.svg)
 
 ---
 
