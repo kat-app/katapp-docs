@@ -8,6 +8,11 @@ The header of the KatApp Dashboard provides several action items. You can use th
 Depending on the page you're on, there will be different action items available.
 Following, all actions items are listed, so you know what they mean if you see them.
 
+## Link to User Documentation
+By clicking this icon you can open the user documentation of the KatApp Dashboard in a new tab.
+
+![user-doc-link-icon.png](/user-doc-link-icon.png)
+
 ## Dark Mode Toggle
 By clicking this icon you can switch between light and dark mode.
 
