@@ -1,6 +1,6 @@
 +++
 title = 'Navigation'
-weight = 4
+weight = 5
 +++
 
 To navigate through the Tenant admin console, a permanent menu list is opened on the left-hand side. There the different links to the [User activation page](services/activateUsers), the [User management page](services/manageUsers), the [Device registration page](services/deviceRegistration), the [Device management page](services/deviceManagement), as well as the [Home page] is listed.
