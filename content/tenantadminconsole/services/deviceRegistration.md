@@ -12,3 +12,4 @@ For the device registration following values are needed:
 | **Name of the device**   | The name of the device is an individual name for device that can be freely filled in. There is no naming convention. Nevertheless, a suitable name should be selected so that the device can be found in the device list. |
 | **Operating system** | The KatApp app is available on Android or iOS |
 | **Role of the device** | The assigned role gives the device certain access rights to resources. You can find more information about roles and the associated rights [here](/assignRoles). |
+| **First and Last name (optional)** | The user of the device can be stored so that the name of the device user is displayed in the dashboard when a triage is created. | 
