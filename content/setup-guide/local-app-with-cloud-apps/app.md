@@ -3,7 +3,7 @@ title = "App"
 weight = 2
 +++
 
-## Setting up the App to use the cloud Backend
+## Setting up the App to use the Cloud Backend
 
 ### Web Setup
 
@@ -15,7 +15,7 @@ docker-compose up
 
 This will build the app and start a webserver listening at http://loalhost:5000. The web build will automatically use the local backend unless specified otherwise. This can be changed in file */lib/flavors.dart*. Here, change the *default* value to the URL of the cloud endpoint you want to use for testing. This will usually be one of the two other URLs visible in the file. Use of the DEV distribution is recommended in most cases.
 
-If the Flutter SDK is installed locally the App can also be started with the following commands:
+If the Flutter SDK is installed locally, the App can also be started with the following commands:
 
 ```
 flutter config --enable-web

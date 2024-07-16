@@ -29,7 +29,7 @@ By pressing r in the console window while the app is running new changes can be 
 
 If the Flutter SDK is installed locally on your system the app can also be run directly in an emulator.
 
-The app can be tested either on device using the emulator or on your phone. If you are planning on testing the app on a macOS device in flutter it is recommended to instead test the app directly on your phone. This is due to the fact that the iOS emulator on macOS does not support camera mocking.
+The app can be tested either on device using the installed emulator or on your phone. If you are planning on testing the app on a macOS device in flutter it is recommended to either use the android emulator or instead test the app directly on your phone. This is due to the fact that the iOS emulator on macOS does not support camera mocking.
 
 To test the mobile app in an emulator with a local backend modify the URLs in file */lib/flavors.dart*. Replace both Flavor.DEV and Flavor.PROD with http://localhost:9997/v1. ⚠️ **Do not push this change to the remote repository. 🔴 Doing so so may break production** as the app is automatically built and deployed from the GitHub repository on specific conditions and will cease to work in the cloud deployment with these changes applied ⚠️.
 
