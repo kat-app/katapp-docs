@@ -22,4 +22,4 @@ After successfully installing the KatApp you will find the KatApp logo on your h
 ![app_logo.png](/app_logo.png)
 
 
-[To the rescue!](/app/firstStart/firstStart)
+[To the rescue!](/user-documentation/app/firstStart/firstStart)
