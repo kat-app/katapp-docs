@@ -29,15 +29,15 @@ By pressing r in the console window while the app is running new changes can be 
 
 If the Flutter SDK is installed locally on your system the app can also be run directly in an emulator.
 
-The app can be tested either on device using the installed emulator or on your phone. If you are planning on testing the app on a macOS device in flutter it is recommended to either use the android emulator or instead test the app directly on your phone. This is due to the fact that the iOS emulator on macOS does not support camera mocking.
+The app can be tested either on device using the installed emulator or on your phone. If you are planning on testing the app on a macOS device in flutter it is recommended to either use the android emulator or instead test the app directly on your phone. This is due to the fact that the iOS emulator on macOS does not support camera mocking. On Android the camera can be set up to use the development device webcam. This option can be found in the settings of your emulated device.
 
-To test the mobile app in an emulator with a local backend modify the URLs in file */lib/flavors.dart*. Replace both Flavor.DEV and Flavor.PROD with http://localhost:9997/v1. ⚠️ **Do not push this change to the remote repository. 🔴 Doing so so may break production** as the app is automatically built and deployed from the GitHub repository on specific conditions and will cease to work in the cloud deployment with these changes applied ⚠️.
+To test the mobile app in an emulator with a local backend modify the URLs in file */lib/flavors.dart*. Replace both Flavor.DEV and Flavor.PROD with http://localhost:9997/v1. When using the Android emulator replace localhost with 10.0.2.2. The URL should look like this: http://10.0.2.2:9997/v1. This is because localhost on the android emulator is a loopback to the network of the emulated mobile device. The custom address 10.0.2.2 loops to the network of the development machine. ⚠️ **Do not push this change to the remote repository. 🔴 Doing so so may break production** as the app is automatically built and deployed from the GitHub repository on specific conditions and will cease to work in the cloud deployment with these changes applied ⚠️.
 
 After this setup run the flutter app with the following commands:
 
 ```
 flutter pub get
-flutter run --flavor dev -t lib/main-dev.dart --release
+flutter run --flavor dev -t lib/main-dev.dart --debug
 ```
 
 With the modified URLs in */lib/flavors.dart* the app will use the local API.

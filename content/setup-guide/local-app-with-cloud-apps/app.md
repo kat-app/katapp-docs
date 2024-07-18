@@ -31,13 +31,13 @@ By pressing r in the console window while the app is running it's possible to di
 
 If the Flutter SDK is installed locally on your system, the app can also be run directly in an emulator.
 
-The app can be tested either on device using the installed emulator or on your phone. If you are planning on testing the app on a macOS device in flutter it is recommended to either use the android emulator or instead test the app directly on your phone. This is due to the fact that the iOS emulator on macOS does not support camera mocking.
+The app can be tested either on device using the installed emulator or on your phone. If you are planning on testing the app on a macOS device in flutter it is recommended to either use the android emulator or instead test the app directly on your phone. This is due to the fact that the iOS emulator on macOS does not support camera mocking. On Android the camera can be set up to use the development device webcam. This option can be found in the settings of your emulated device.
 
 To test the mobile app on your development device without setup of a local environment run the flutter app with the following command:
 
 ```
 flutter pub get
-flutter run --flavor dev -t lib/main-dev.dart --release
+flutter run --flavor dev -t lib/main-dev.dart --debug
 ```
 
 This will automatically set up the app to access the cloud DEV API unless specified otherwise. This fully set-up environment will enable you to experiment with the app. Be mindful of testing the application on a live deployment.
