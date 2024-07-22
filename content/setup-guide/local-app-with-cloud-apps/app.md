@@ -27,6 +27,21 @@ Port 5000 is important due to CORS and Origin Controls defined in the backend.
 
 By pressing r in the console window while the app is running it's possible to display changes without needing to rebuild the app.
 
+#### CORS
+
+In case CORS errors still occur while using this configuration, run an instance of chrome with the --disable-web-security flag. This will disable CORS security measures, which do not exist within the official app context. When necessary, CORS can be disabled the following ways:
+
+Windows:
+```
+cd C:\Program Files (x86)\Google\Chrome\Application
+chrome.exe --disable-web-security --user-data-dir=c:\my-chrome-data\data
+```
+
+Mac:
+```
+open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args --user-data-dir="/tmp/chrome_dev_sess_1" --disable-web-security
+```
+
 ### Mobile Setup
 
 If the Flutter SDK is installed locally on your system, the app can also be run directly in an emulator.
