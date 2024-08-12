@@ -26,4 +26,4 @@ The credentials can be adjusted in the script.
 
 ### Viewing saved data
 
-The local backend uses MongoDB, unless specified otherwise. The database and neccessary tables are created at runtime whenever needed. You can check the saved data using the [MongoDB Compass](https://www.mongodb.com/products/tools/compass). Run the application and connect to the default port provided at startup to get started. If the script has already been ran or data has already been saved in other ways, the KatApp database should have been created by the database. You can view its collections and saved data from here.
+The local backend uses MongoDB, unless specified otherwise. The database and neccessary tables are created at runtime whenever needed. You can check the saved data using the [MongoDB Compass](https://www.mongodb.com/products/tools/compass). Run the application and connect to the default port provided at startup to get started. If the script has already been ran or data has already been saved in other ways, the KatApp database should have been created by the backend. You can view its collections and saved data from here.

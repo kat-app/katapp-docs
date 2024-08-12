@@ -44,9 +44,9 @@ open -n -a /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --args
 
 ### Mobile Setup
 
-If the Flutter SDK is installed locally on your system, the app can also be run directly in an emulator.
+If the Flutter SDK is installed locally on your system, the app can also be ran directly in an emulator.
 
-The app can be tested either on device using the installed emulator or on your phone. If you are planning on testing the app on a macOS device in flutter it is recommended to either use the android emulator or instead test the app directly on your phone. This is due to the fact that the iOS emulator on macOS does not support camera mocking. On Android the camera can be set up to use the development device webcam. This option can be found in the settings of your emulated device.
+The app can be tested either on device using the installed emulator or on your phone. If you are planning on testing the app on a macOS device it is recommended to either use the android emulator or instead test the app directly on your phone. This is due to the fact that the iOS simulator on macOS does not support camera mocking. On Android the camera can be set up to use the development device webcam. This option can be found in the settings of your emulated device.
 
 To test the mobile app on your development device without setup of a local environment run the flutter app with the following command:
 
