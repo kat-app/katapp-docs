@@ -1,10 +1,8 @@
 +++
-title = "Fully Local Setup"
-weight = 2
-[_build]
-  render = "never"
+title = "Manual Fully Local Setup"
+weight = 3
 +++
 
-## Local setup
+## Manual Fully Local Setup
 
-Local setup is siminal to the cloud setup in nature, though it does require additional steps.
+The manual local setup of the application is siminal to the cloud setup in nature, though it does require additional steps.
