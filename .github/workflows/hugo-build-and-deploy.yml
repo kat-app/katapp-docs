@@ -11,7 +11,7 @@ on:
 jobs:
   build_and_deploy:
     name: Build hugo site and deploy to AWS S3
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     environment: ${{ inputs.environment }}
 
