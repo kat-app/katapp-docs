@@ -21,4 +21,4 @@ After a successful installation You will find the KatApp Logo on your home scree
 
 ![app_logo.png](/app_logo.png)
 
-[To the rescue!](/app/firstStart/firstStart)
+[To the rescue!](/user-documentation/app/firstStart/firstStart)

@@ -1,11 +1,11 @@
 +++
-archetype = "home"
-title = "KatApp Documentation"
+title = "User Documentation"
+weight = 1
 +++
 
 ![KatApp Logo](/katapp-logo-name.png)
 
-## Welcome to the KatApp Documentation!
+## Welcome to the KatApp User Documentation!
 
 The KatApp is a system for recording triages and patients during disaster situations.
 
