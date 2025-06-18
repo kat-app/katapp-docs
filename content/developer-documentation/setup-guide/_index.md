@@ -1,0 +1,27 @@
++++
+title = "Getting Started"
+weight = 1
++++
+
+<div class="text-center">
+  <img src="/katapp-logo-name.png" alt="KatApp Logo" class="mb-4" style="max-width: 300px;">
+</div>
+
+# Welcome to the KatApp Setup Guide
+
+This guide walks you through setting up your local KatApp development environment. Use the sidebar navigation to follow the setup steps that match your needs.
+
+> **Note:** If you're a regular user, your environment is already configured. Head to the [User Documentation](/user-documentation) for usage instructions.
+
+## Prerequisites
+
+### Docker Desktop (Recommended)
+
+[Docker Desktop](https://www.docker.com/products/docker-desktop/) is our recommended tool for containerization. It streamlines the setup process significantly.
+
+### Alternative: Rancher Desktop
+
+If you're working in an organization:
+- Docker Desktop may require a paid license
+- Contact your IT help desk for license information
+- Alternatively, use [Rancher Desktop](https://rancherdesktop.io/) - a free, open-source alternative with full Docker CLI support
