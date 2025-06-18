@@ -23,7 +23,7 @@ To build and serve the documentation locally, an installation or an executable o
 To serve the site locally, run the following command:
 
 ```sh
-$ hugo server --buildDrafts
+$ hugo server --buildDrafts --cleanDestinationDir
 ```
 
 Alternatively, you can use the launch task "Debug Hugo Docs" under VsCode.

@@ -7,4 +7,4 @@ title = 'KatApp User Documentation'
     path = 'github.com/McShelby/hugo-theme-relearn'
 
 [outputs]
-home = [ "HTML", "RSS", "SEARCH"]
+home = [ "HTML", "RSS"]
