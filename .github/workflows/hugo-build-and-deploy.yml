@@ -21,7 +21,7 @@ jobs:
 
       - name: Set up Hugo
         run: |
-          HUGO_VERSION="0.144.2"
+          HUGO_VERSION="0.147.8"
           wget "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
           tar -xf "hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz"
           mv hugo /usr/local/bin/
