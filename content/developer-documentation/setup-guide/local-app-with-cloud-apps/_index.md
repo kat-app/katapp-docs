@@ -1,5 +1,5 @@
 +++
-title = "Running only the App Locally"
+title = "Option 2: Running only the App Locally"
 weight = 2
 +++
 

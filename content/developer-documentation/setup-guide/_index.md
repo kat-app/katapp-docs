@@ -25,3 +25,15 @@ If you're working in an organization:
 - Docker Desktop may require a paid license
 - Contact your IT help desk for license information
 - Alternatively, use [Rancher Desktop](https://rancherdesktop.io/) - a free, open-source alternative with full Docker CLI support
+
+## Local Development Setup
+
+There are 3 ways to set up KatApp for local development:
+
+1. **Quickstart** - Everything runs locally in Docker containers
+2. **Local App Development** - The app runs locally but uses the cloud-based backend
+3. **Full Local Development** - Everything runs locally with hot reloads for all components
+
+## Quick Access
+
+{{% children depth="1" style="h4" %}}

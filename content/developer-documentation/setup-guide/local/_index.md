@@ -1,5 +1,5 @@
 +++
-title = "Fully Local Setup"
+title = "Option 3: Fully Local Setup"
 weight = 3
 +++
 

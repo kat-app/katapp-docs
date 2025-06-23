@@ -1,5 +1,5 @@
 +++
-title = "Quickstart"
+title = "Option 1: Quickstart"
 weight = 1
 +++
 
