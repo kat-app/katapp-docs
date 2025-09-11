@@ -1,6 +1,6 @@
 +++
 title = "User Documentation"
-weight = 1
+weight = 2
 +++
 
 ![KatApp Logo](/katapp-logo-name.png)

@@ -1,6 +1,6 @@
 +++
 title = "Developer Documentation"
-weight = 1
+weight = 3
 +++
 
 ![KatApp Logo](/katapp-logo-name.png)
