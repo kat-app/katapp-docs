@@ -12,7 +12,7 @@ Please follow the instructions below **at least 2 days before the drill**. This 
 
 ### Login
 
-![Login Screen](/app-screenshots/en/00_login.jpeg)
+![Login Screen](/app-screenshots/en/00_login.PNG)
 
 To begin using the app, you'll need to paste your application token into the initial login screen. This token will be provided to you.
 
