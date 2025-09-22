@@ -26,7 +26,7 @@ Here you can see your location. Please select this according to your role. In th
 
 ![Scanner Screen](/app-screenshots/en/10_scanner.jpeg)
 
-On this screen, you can scan a QR code that will be placed on the patient during the drill. This QR code uniquely identifies the patient. To test the app, visit a QR code generator like https://www.qr-code-generator.com/ or https://www.qrcode-monkey.com/ and scan a QR code with this screen. The QR code should contain only numbers and must be **unique**. An example QR code could look like this (please do NOT use this example, as it would conflict with existing entries):
+On this screen, you can scan a QR code that will be placed on the patient during the drill. This QR code uniquely identifies the patient. To test the app, visit a QR code generator like https://www.qr-code-generator.com/ or https://www.qrcode-monkey.com/ and scan a QR code with this screen. The QR code should contain only numbers and must be **unique**, as one QR code is matched to exactly one patient. In order to create your QR code we advice to *use your matriculation number followed by random numbers*, to get a truly unique number. If you used the same number as someone else you will get a different screen. In that case go back and choose a different number. An example QR code could look like this (please do NOT use this example, as it would conflict with existing entries):
 
 ![QR Code Generator](/app-screenshots/en/EXTERNAL-qr-code-generator.png)
 
