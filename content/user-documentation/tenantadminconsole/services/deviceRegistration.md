@@ -5,6 +5,8 @@ weight = 2
 
 The Device registration is used in order to register aider devices that run the KatApp app to the Tenant. The registration of those devices is needed for allowing them to make valid request to the backend services by using authentication tokens. For more information about the authentication tokens, see [Generate authentication token](/authenticationToken).
 
+> **Drill preparation:** When registering many devices at once for a drill, consider using the [drill-preparation script](https://github.com/kat-app/drill-preparation). It automates bulk device registration from a CSV file (`email`, `first_name`, `last_name`) and assigns the `DeviceUser` role automatically.
+
 For the device registration following values are needed:
 | Value      | Description |
 | ----------- | ----------- |

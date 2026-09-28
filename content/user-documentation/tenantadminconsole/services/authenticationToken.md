@@ -5,6 +5,8 @@ weight = 4
 
 As you have learnt in the [Device registration](/deviceRegistration) documentation, a tenant admin can register the aider devices on which the KatApp-app is running. There is no association between the device user and device itself. However, the tenant must use the tenant admin console to generate valid authentication keys that are unique for each device. The authentication key is used to obtain an access token from the backend which the KatApp-app usees to make valid requests to the backend.
 
+> **Drill preparation:** For drills with many participants, device creation and token generation can be automated using the [drill-preparation script](https://github.com/kat-app/drill-preparation). It reads a CSV file with participant names and emails, registers each device via the API, and sends each participant their token by email automatically.
+
 In order to generate the authentication token, the button Generate Device Token must pressed.
 ![Generate-device-token-button](/generate-device-token-button.png)
 
